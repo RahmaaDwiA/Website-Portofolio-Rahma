@@ -1,0 +1,25 @@
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --mint-50: #f0fdfa;
+  --mint-100: #ccfbf1;
+  --mint-200: #99f6e4;
+  --mint-400: #2dd4bf;
+  --mint-600: #0d9488;
+  --peach-50: #fff7ed;
+  --peach-100: #ffedd5;
+  --peach-500: #f59e42;
+}
+.bg-mint-50 { background-color: var(--mint-50); }
+.bg-mint-100 { background-color: var(--mint-100); }
+.bg-mint-200 { background-color: var(--mint-200); }
+.text-mint-400 { color: var(--mint-400); }
+.text-mint-600 { color: var(--mint-600); }
+.bg-peach-50 { background-color: var(--peach-50); }
+.bg-peach-100 { background-color: var(--peach-100); }
+.text-peach-500 { color: var(--peach-500); }
+.border-mint-200 { border-color: var(--mint-200); }
+.border-pink-100 { border-color: #fde4f4; }
+.border-pink-200 { border-color: #fbcfe8; }
+.shadow-xl { box-shadow: 0 10px 40px 0 rgba(0,0,0,0.1); }
